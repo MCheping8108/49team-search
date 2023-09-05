@@ -27,3 +27,23 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# 使用说明
+
+目前已支持大部分知名的搜索引擎
+
+` gg 搜索内容` 跳转到Google
+
+` bd 搜索内容` 跳转到百度
+
+` bing 搜索内容` 跳转到bing
+
+` gt 搜索内容` 跳转到GitHub
+
+` yd 搜索内容` 跳转到Yandex
+
+## 网址
+https://search.49team.org
+
+## 开源协议
+该项目使用[cc-by-sa-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/)
