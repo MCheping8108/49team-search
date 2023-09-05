@@ -1,8 +1,8 @@
 # 49team-search-no2
 
-This template should help get you started developing with Vue 3 in Vite.
+这个模板应该可以帮助您开始在 Vite 中使用 Vue 3 进行开发。
 
-## Recommended IDE Setup
+## 🔧开发工具
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
@@ -10,19 +10,19 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 🔍安装依赖
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 🏃‍本地运行
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 🏠构建
 
 ```sh
 npm run build
