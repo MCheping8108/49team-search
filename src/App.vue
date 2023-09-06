@@ -52,10 +52,24 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
       else {
-        // 添加文字
+        // if (!isElseExecuted) {
+        //   isElseExecuted = true;
+
+        //   const error = document.getElementById("error");
+        //   const warning = document.createElement("li");
+        //   const br = document.createElement("br");
+        //   // warning.innerHTML = '<el-alert title="⚠ERROR⚠: 没有匹配到任何搜索引擎" type="error" />';
+        //   error.appendChild(br);
+        //   warning.textContent = "⚠ERROR⚠: 没有匹配到任何搜索引擎";
+        //   error.appendChild(warning);
+        //   return;
+        // }
+        添加文字
         const error = document.getElementById("error");
         const warning = document.createElement("li");
+        const br = document.createElement("br");
         // warning.innerHTML = '<el-alert title="⚠ERROR⚠: 没有匹配到任何搜索引擎" type="error" />';
+        error.appendChild(br);
         warning.textContent = "⚠ERROR⚠: 没有匹配到任何搜索引擎";
         error.appendChild(warning);
         return;
