@@ -64,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
         //   error.appendChild(warning);
         //   return;
         // }
-        添加文字
         const error = document.getElementById("error");
         const warning = document.createElement("li");
         const br = document.createElement("br");
