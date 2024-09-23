@@ -1,5 +1,7 @@
-<script>
-// import elementUI from 'element-plus';
+<script lang="ts">
+import elementUI from 'element-plus';
+import 'element-plus/dist/index.css';
+import { ElNotification } from "element-plus";
 export default {
   data() {
     return {
@@ -64,15 +66,15 @@ document.addEventListener("DOMContentLoaded", function () {
         //   error.appendChild(warning);
         //   return;
         // }
-        const error = document.getElementById("error");
-        const warning = document.createElement("li");
-        const br = document.createElement("br");
-        // warning.innerHTML = '<el-alert title="⚠ERROR⚠: 没有匹配到任何搜索引擎" type="error" />';
-        error.appendChild(br);
-        warning.textContent = "⚠ERROR⚠: 没有匹配到任何搜索引擎";
-        error.appendChild(warning);
+
+        ElNotification({
+          title: '错误',
+          message: '没有匹配到任何搜索引擎或没有输入内容',
+          type: 'error',
+        })
+
         return;
-        
+
       }
     }
   });
@@ -82,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <template>
   <div class="images">
-    <img src="https://mcheping520.gitee.io/graphic-bed/image/EH2vkuQABsNiwKg.png" alt="">
+    <img src="/49team.png" alt="">
   </div>
   <div id="search">
     <input type="text" id="searchInput" :placeholder="placeholder">
